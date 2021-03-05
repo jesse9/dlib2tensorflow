@@ -19,7 +19,7 @@ def main(args):
     keras_model.save("dlib_face_recognition_resnet_model_v1.h5")
 
     # save it as saved_model
-	tf.saved_model.save(keras_model,'./saved_model/')
+    tf.saved_model.save(keras_model,'./saved_model/')
 
 
 def parse_arg(argv):
